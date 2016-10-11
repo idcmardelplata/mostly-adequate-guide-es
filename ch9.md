@@ -1,8 +1,9 @@
-# Monadic Onions
+# Cebollas monadicas
 
 ## Pointy Functor Factory
 
-Before we go any further, I have a confession to make: I haven't been fully honest about that `of` method we've placed on each of our types. Turns out, it is not there to avoid the `new` keyword, but rather to place values in what's called a *default minimal context*. Yes, `of` does not actually take the place of a constructor - it is part of an important interface we call *Pointed*.
+
+Before we go any further, Tengo una confesion que hacerles: I haven't been fully honest about that `of` method we've placed on each of our types. Turns out, it is not there to avoid the `new` keyword, but rather to place values in what's called a *default minimal context*. Yes, `of` does not actually take the place of a constructor - it is part of an important interface we call *Pointed*.
 
 > A *pointed functor* is a functor with an `of` method
 
